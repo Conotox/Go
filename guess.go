@@ -3,13 +3,13 @@ package main
 import (
 	"bufio" // function that has something to do with recording input from console
 	"fmt"   // imput output function
-	"os"    // not sure what this is yet
+	"os"    // a library that allows your application to make system calls
 	"time"
 )
 
 // everything is inside the scope of this main function
 func main() {
-	// this is saying scanner is currently equal to 'bufio.NewScanner(os.Stdin)'
+	// assigning a variable labelled scanner. Easier to type than bufio.NewScanner blabla
 	scanner := bufio.NewScanner(os.Stdin)
 
 	//Game introduction
